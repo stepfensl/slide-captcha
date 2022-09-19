@@ -5,7 +5,8 @@
     "type": "library",
     "keywords": [
         "dcat-admin",
-        "extension"
+        "extension",
+        "slide-captcha"
     ],
     "homepage": "https://github.com/stepfensl/slide-captcha",
     "license": "MIT",
@@ -16,7 +17,7 @@
         }
     ],
     "require": {
-        "php": ">=7.1.0",
+        "php": ">=8.0.12",
         "dcat/laravel-admin": "2.*",
         "yuanlj-tea/slide-captcha": "^1.0"
     },
