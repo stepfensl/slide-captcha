@@ -2,6 +2,10 @@
 dcat admin 滑动验证码插件
 ======
 
+## 安装
+
+    composer require stepfensl/slide-captcha
+
 ## 设置
 在扩展中 启用插件 并设置 开启状态
 
