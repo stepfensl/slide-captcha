@@ -1,0 +1,36 @@
+{
+    "name": "stepfensl/slide-captcha",
+    "alias": "",
+    "description": "dact-admin 滑动验证码",
+    "type": "library",
+    "keywords": [
+        "dcat-admin",
+        "extension"
+    ],
+    "homepage": "https://github.com/stepfensl/slide-captcha",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "stepfensl",
+            "email": "stepfensl@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "2.*",
+        "yuanlj-tea/slide-captcha": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dact\\Admin\\SlideCaptcha\\": "src/"
+        }
+    },
+    "extra": {
+        "dcat-admin": "Dact\\Admin\\SlideCaptcha\\SlideCaptchaServiceProvider",
+        "laravel": {
+            "providers": [
+                "Dact\\Admin\\SlideCaptcha\\SlideCaptchaServiceProvider"
+            ]
+        }
+    }
+}
