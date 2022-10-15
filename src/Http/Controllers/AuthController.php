@@ -9,6 +9,7 @@ use Dcat\Admin\Layout\Content;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;
+use Tncode\SlideCaptcha;
 
 class AuthController extends BaseAuthController
 {
@@ -71,7 +72,7 @@ class AuthController extends BaseAuthController
 
     public function captcha()
     {
-        $captcha = app('slide_captcha');
+         $captcha = new SlideCaptcha();
 
         $captcha->build();
         $captcha->imgout(1, 1);
