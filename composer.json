@@ -17,8 +17,7 @@
         }
     ],
     "require": {
-        "php": ">=8.0.2",
-        "dcat/laravel-admin": "2.*",
+        "php": ">=7.3.4",
         "yuanlj-tea/slide-captcha": "^1.0"
     },
     "autoload": {
